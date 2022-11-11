@@ -72,7 +72,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">Petteri Räsänen</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>I play games, make games and am interested in anything gaming related. I have studied game programming and graduated from Kajaani University of Applied Sciences in June, 2022. I am especially interested in game design and localization, and also web design. I am open to job opportunities and any kind of collaboration projects related to these themes. I like to connect globally and enjoy working in international and diverse environments. Currently I live in Tokyo, Japan. Scroll down for more!  
+    <p>I play games, make games and am interested in anything gaming related. I have studied game programming and graduated from Kajaani University of Applied Sciences in June, 2022. I am especially interested in game design and localization, I wrote my graduation thesis about game localization. I also like to do web programming, as you can see! <br><br>
+     I am open to job opportunities and any kind of collaboration projects related to these themes. I like to connect globally and enjoy working in international and diverse environments. Currently I live in Tokyo, Japan. Scroll down for more!  
     </p>
 
  <!-- Tools Sub-section -->
@@ -88,10 +89,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	<h3 class="w3-wide w3-text-light-grey">Programming</h3>
     <p class="w3-text-light-grey">Languages</p>
 	  <p>C# - average</p>
-    <p>C++ - basics</p>
+    <!--<p>C++ - basics</p>-->
     <p>JavaScript - basics</p>
     <p>HTML & CSS - average</p>
-    <p>SQL - basics</p>
+    <p>PHP - average</p>
+    <p>MySQL - basics</p>
     <p class="w3-text-light-grey">Tools</p>
     <p>MS Visual Studio</p>
     <p>Sublime Text</p>
@@ -220,10 +222,28 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +8170 2822 6517</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: petteri.rasanen2@gmail.com</p>
     </div>
+
+  <!-- Email form -->
+  
+
    
   <!-- End Contact Section -->
 
   </div>
+
+  <p>Let's get in touch. Send me a message:</p>
+
+    <form method="post" name="emailform" action="emailaction.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="subject"></p>
+      <p><textarea class="w3-input w3-padding-16" type="text" placeholder="Message" required name="message"></textarea> 
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit" value="Send Form">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
 
    <!-- Footer -->
 
