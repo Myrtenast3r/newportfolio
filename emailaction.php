@@ -44,8 +44,17 @@ function isInjected($str){
 
 }
 
+echo "<h2>Your Input:</h2>";
+echo $name;
+echo "<br>";
+echo $email;
+echo "<br>";
+echo $message;
+echo "<br>";
+
+
 // check if is infected
-if (isInjected($visitor_email, $email_from)) {
+/*if (isInjected($visitor_email, $email_from)) {
 	echo "Bad email value!";
 	exit;
 }
@@ -57,7 +66,7 @@ if (isInjected($visitor_email, $email_from)) {
  $to = "petteri.rasanen2@gmail.com";
  $headers = "From: $email_from \r\n";
  $headers .= "Reply to: $visitor_email \r\n";
- mail($to, $email_subject, $email_body, $headers);
+ mail($to, $email_subject, $email_body, $headers);*/
 
 
 ?>
